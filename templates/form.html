@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Python Flask Bucket List App</title>
+
+
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://getbootstrap.com/docs/3.3/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+    <link href="../static/form.css" rel="stylesheet">
+    <script src="../static/js/jquery-1.11.2.js"></script>
+    <script src="../static/js/showForm.js"></script>
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header">
+        <h3 class="text-muted">Purva's App</h3>
+      </div>
+
+      <div class="jumbotron">
+        <h1>EIS Potentiostat</h1>
+        <form class="form-signin">
+        <label for="startFrequency" class="sr-only">Start Frequency</label>
+        <input type="name" name="startFrequency" id="startFrequency" class="form-control" placeholder="Start Frequency" required autofocus>
+        <label for="startFrequency" class="sr-only">Stop Frequency</label>
+        <input type="name" name="stopFrequency" id="stopFrequency" class="form-control" placeholder="Stop Frequency" required autofocus>
+        <label for="offset" class="sr-only">Offset</label>
+        <input type="name" name="offset" id="offset" class="form-control" placeholder="Offset" required autofocus>
+        <label for="offset" class="sr-only">Method</label>
+        <input type="name" name="method" id="method" class="form-control" placeholder="Method" required autofocus>
+        <button id="submit" class="btn btn-lg btn-primary btn-block" href="submitForm" type="button">Submit</button>
+      </form>
+      </div>
+
+
+
+      <footer class="footer">
+        <p>&copy; University of Cincinnati 2018 </p>
+      </footer>
+
+    </div>
+  </body>
+</html>
